@@ -8,10 +8,11 @@
 </head>
 <body>
 
-    <nav>
+    <!-- Navbar -->
+    <nav class="navbar">
         <div class="logo">Meriya Neha</div>
 
-        <ul>
+        <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -19,104 +20,156 @@
         </ul>
     </nav>
 
+    <!-- Hero Section -->
     <section class="hero">
 
-        <div class="hero-content">
-            <h1>Hi, I'm Meriya Neha</h1>
+        <img src="Meriya_Neha_image.jpeg" alt="Meriya Neha" class="profile-img">
 
-            <h2>Node.js Developer</h2>
+        <h1>Hi, I'm Meriya Neha 👋</h1>
 
-            <p>
-                BCA Graduate passionate about building scalable web applications
-                using Node.js, Express.js, MongoDB and JavaScript.
-            </p>
+        <h2>Node.js Developer</h2>
 
-            <div class="buttons">
-                <a href="https://github.com/meriyaneha988-code" target="_blank">
-                    GitHub
-                </a>
+        <p>
+            Passionate Node.js Developer with a strong interest in building
+            scalable web applications, REST APIs, and modern backend systems
+            using Node.js, Express.js and JavaScript.
+        </p>
 
-                <a href="https://www.linkedin.com/in/meriya-neha/" target="_blank">
-                    LinkedIn
-                </a>
-            </div>
+        <div class="hero-buttons">
+
+            <a href="Meriya_Neha_Resume.pdf" download class="btn">
+                Download Resume
+            </a>
+
+            <a
+                href="https://github.com/meriyaneha988-code"
+                target="_blank"
+                class="btn"
+            >
+                GitHub
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/meriya-neha/"
+                target="_blank"
+                class="btn"
+            >
+                LinkedIn
+            </a>
+
         </div>
 
     </section>
 
+    <!-- About -->
     <section id="about">
 
-        <h2>About Me</h2>
+        <h2 class="section-title">About Me</h2>
 
-        <p>
-            I am a BCA graduate and aspiring Node.js Developer.
-            I enjoy building backend systems, REST APIs,
-            and full-stack web applications.
+        <p class="section-text">
+            I am a BCA Graduate and aspiring Node.js Developer.
+            I enjoy solving real-world problems through software development.
+            My primary focus is backend development using Node.js, Express.js
+            and JavaScript.
         </p>
 
     </section>
 
+    <!-- Skills -->
     <section id="skills">
 
-        <h2>Skills</h2>
+        <h2 class="section-title">Skills</h2>
 
-        <div class="skill-grid">
+        <div class="skills-container">
 
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>JavaScript</div>
-            <div>Node.js</div>
-            <div>Express.js</div>
-            <div>MongoDB</div>
-            <div>Git</div>
-            <div>GitHub</div>
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">Express.js</div>
+            <div class="skill-card">PostgreSQL</div>
+            <div class="skill-card">Git</div>
+            <div class="skill-card">GitHub</div>
 
         </div>
 
     </section>
 
+    <!-- Projects -->
     <section id="projects">
 
-        <h2>Projects</h2>
+        <h2 class="section-title">Projects</h2>
 
-        <div class="project-grid">
+        <div class="projects-container">
 
-            <div class="card">
+            <div class="project-card">
                 <h3>Portfolio Website</h3>
-                <p>Personal responsive portfolio website.</p>
+                <p>
+                    Personal portfolio website hosted using GitHub Pages.
+                </p>
             </div>
 
-            <div class="card">
+            <div class="project-card">
                 <h3>Node.js REST API</h3>
-                <p>CRUD API using Express and MongoDB.</p>
+                <p>
+                    CRUD REST API using Node.js, Express.js and MongoDB.
+                </p>
             </div>
 
-            <div class="card">
-                <h3>Todo App</h3>
-                <p>Task management application.</p>
-            </div>
+            <!-- <div class="project-card">
+                <h3>Todo Application</h3>
+                <p>
+                    Task management application with complete CRUD features.
+                </p>
+            </div> -->
 
         </div>
 
     </section>
 
+    <!-- Contact -->
     <section id="contact">
 
-        <h2>Contact</h2>
+        <h2 class="section-title">Contact</h2>
 
-        <p>Email: meriyaneha988@gmail.com</p>
+        <div class="contact-box">
 
-        <p>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/meriya-neha/" target="_blank">
-                View Profile
-            </a>
-        </p>
+            <p>
+                📧 Email:
+                <a href="mailto:meriyaneha988@gmail.com">
+                    meriyaneha988@gmail.com
+                </a>
+            </p>
+
+            <p>
+                💼 LinkedIn:
+                <a
+                    href="https://www.linkedin.com/in/meriya-neha/"
+                    target="_blank"
+                >
+                    View Profile
+                </a>
+            </p>
+
+            <p>
+                💻 GitHub:
+                <a
+                    href="https://github.com/meriyaneha988-code"
+                    target="_blank"
+                >
+                    View GitHub
+                </a>
+            </p>
+
+        </div>
 
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>© 2026 Meriya Neha</p>
+        <p>
+            © 2026 Meriya Neha | Node.js Developer
+        </p>
     </footer>
 
 </body>
